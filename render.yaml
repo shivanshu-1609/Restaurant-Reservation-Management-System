@@ -3,7 +3,7 @@ services:
     name: restaurant-reservation-system
     env: node
     plan: free
-    buildCommand: corepack enable && pnpm install --frozen-lockfile=false && pnpm --filter client build
+    buildCommand: pnpm install && pnpm --filter client build
     startCommand: pnpm --filter server start
     envVars:
       - key: NODE_ENV
