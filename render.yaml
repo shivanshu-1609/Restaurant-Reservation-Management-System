@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: restaurant-reservation-system
+    env: node
+    plan: free
+    buildCommand: corepack enable && pnpm install --frozen-lockfile=false && pnpm --filter client build
+    startCommand: pnpm --filter server start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        sync: false
+      - key: MONGODB_URI
+        sync: false
+      - key: CLIENT_ORIGIN
+        sync: false
+      - key: ADMIN_REGISTRATION_CODE
+        sync: false

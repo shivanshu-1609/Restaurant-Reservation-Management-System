@@ -1,0 +1,21 @@
+{
+  "name": "restaurant-reservation-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack restaurant reservation management assignment.",
+  "scripts": {
+    "dev": "pnpm --parallel --filter server --filter client dev",
+    "build": "pnpm --filter client build",
+    "start": "pnpm --filter server start",
+    "test": "pnpm --filter server test"
+  },
+  "keywords": [
+    "restaurant",
+    "reservations",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "license": "MIT",
+  "packageManager": "pnpm@11.7.0"
+}
