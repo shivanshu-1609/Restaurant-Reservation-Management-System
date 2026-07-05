@@ -5,7 +5,7 @@ Full-stack assignment implementation using React, Express, MongoDB, and JWT auth
 ## Submission Links
 
 - GitHub repository: [Restaurant-Reservation-Management-System](https://github.com/shivanshu-1609/Restaurant-Reservation-Management-System)
-- Live deployment: [To be added after deployment]
+- Live deployment: [restaurant-reservation-system-722h.onrender.com](https://restaurant-reservation-system-722h.onrender.com)
 
 ## Features
 
